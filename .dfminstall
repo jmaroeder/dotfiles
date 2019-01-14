@@ -1,5 +1,0 @@
-README.md     skip
-bin           recurse
-setup.sh      exec
-setup.sh      skip
-.gitmodules   skip
