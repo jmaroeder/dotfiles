@@ -5,6 +5,29 @@ set -e
 # Dev Tools
 ###########
 
+brew install \
+    autoconf \
+    automake \
+    coreutils \
+    direnv \
+    gettext \
+    gnupg \
+    libffi \
+    libtool \
+    libxml2 \
+    libxslt \
+    libyaml \
+    openssl \
+    postgresql \
+    readline \
+    sqlite3 \
+    trash \
+    unixodbc \
+    xz \
+    zlib
+
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
 
 #####
 # git
