@@ -57,6 +57,7 @@ asdf install ruby 2.5.3
 if [[ ! `asdf plugin-list` == *"nodejs"* ]]; then
     asdf plugin-add nodejs
 fi
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs 10.15.0
 
 
