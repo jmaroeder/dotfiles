@@ -15,6 +15,6 @@ for dotfile in `find $basepath/home`; do
             mkdir -p $target_dir
         fi
     elif [ -f "$dotfile" ]; then
-        echo ln -sfv "$dotfile" $HOME
+        ln -sfv "$dotfile" $HOME$relpath
     fi
 done
