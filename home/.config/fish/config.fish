@@ -25,7 +25,7 @@ set -g BULLETTRAIN_DIR_EXTENDED 5
 set -g fish_greeting
 
 if status --is-interactive
-    abbr --add --global dc 'docker compose'
+    abbr --add --global dc 'docker-compose'
     abbr --add --global gco 'git checkout'
 end
 
