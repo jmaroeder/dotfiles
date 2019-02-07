@@ -29,9 +29,15 @@ if status --is-interactive
     abbr --add --global gco 'git checkout'
 end
 
+# asdf
+test -e /usr/local/opt/asdf/asdf.fish; and source /usr/local/opt/asdf/asdf.fish
 
-source /usr/local/opt/asdf/asdf.fish
+# Google Cloud SDK
+test -e /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc; and source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+test -e /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.fish.inc; and source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.fish.inc
 
+# iTerm2 shell integration
 test -e {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell_integration.fish
 
-eval (direnv hook fish)
+# direnv
+type -q direnv; and eval (direnv hook fish)
