@@ -26,11 +26,12 @@ set -g BULLETTRAIN_STATUS_ERROR \uf468
 set -g BULLETTRAIN_STATUS_JOB \uf423
 set -g BULLETTRAIN_DIR_EXTENDED 5
 set -g fish_greeting
-
 if status --is-interactive
     abbr --add --global dc 'docker-compose'
     abbr --add --global gco 'git checkout'
 end
+
+set -gx EDITOR "code -w"
 
 # asdf
 test -e /usr/local/opt/asdf/asdf.fish; and source /usr/local/opt/asdf/asdf.fish

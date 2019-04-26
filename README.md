@@ -1,5 +1,5 @@
 One-liner:
 
 ```console
-$ mkdir -p ~/src/github.com/jamesmallen; git clone https://github.com/jamesmallen/dotfiles ~/src/github.com/jamesmallen; ~/src/github.com/jamesmallen/dotfiles/setup
+$ mkdir -p ~/src/github.com/jmaroeder; git clone https://github.com/jmaroeder/dotfiles ~/src/github.com/jmaroeder; ~/src/github.com/jmaroeder/dotfiles/setup
 ```
