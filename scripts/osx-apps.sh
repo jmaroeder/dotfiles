@@ -26,14 +26,17 @@ brew install \
     xz \
     zlib
 
+sudo rm -rf /Library/Developer/CommandLineTools
+xcode-select --install
+
 sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
 
 
 #####
 # git
 #####
-git config --global user.name "James Allen"
-git config --global user.email "james.m.allen@gmail.com"
+git config --global user.name "James Roeder"
+git config --global user.email "jmaroeder@gmail.com"
 git config --global core.excludesfile "$HOME/.gitignore"
 git config --global credential.helper "osxkeychain"
 
@@ -47,18 +50,18 @@ brew install \
 if [[ ! `asdf plugin-list` == *"python"* ]]; then
     asdf plugin-add python
 fi
-asdf install python 3.7.2
+asdf install python 3.7.4
 
 if [[ ! `asdf plugin-list` == *"ruby"* ]]; then
     asdf plugin-add ruby
 fi
-asdf install ruby 2.5.3
+asdf install ruby 2.6.4
 
-if [[ ! `asdf plugin-list` == *"nodejs"* ]]; then
-    asdf plugin-add nodejs
-fi
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
-asdf install nodejs 10.15.0
+# if [[ ! `asdf plugin-list` == *"nodejs"* ]]; then
+#     asdf plugin-add nodejs
+# fi
+# bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+# asdf install nodejs 10.16.3
 
 
 ############
@@ -85,9 +88,9 @@ fish -c fisher add kobanyan/bullet-train-fish-theme
 # Apps
 ######
 brew cask install \
-    chrome \
     docker \
     dropbox \
+    google-chrome \
     slack
 
 
@@ -107,9 +110,9 @@ code --install-extension skyapps.fish-vscode
 code --install-extension wholroyd.jinja
 
 
-cat <<EOF < ~/Library/Application Support/Code/User/settings.json
+cat <<EOF > ~/Library/Application\ Support/Code/User/settings.json
 {
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.wordWrap": "on",
     "editor.fontFamily": "'Inconsolata Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.dragAndDrop": false,
