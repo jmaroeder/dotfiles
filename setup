@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-./scripts/xcode-clt.sh
-./scripts/symlink.sh
-./scripts/homebrew.sh
-./scripts/config-osx.sh
-./scripts/osx-apps.sh

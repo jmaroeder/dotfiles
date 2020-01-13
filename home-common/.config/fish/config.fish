@@ -16,7 +16,7 @@ set -g BULLETTRAIN_GIT_UNTRACKED_FG black
 set -g BULLETTRAIN_PYTHON_BG green
 set -g BULLETTRAIN_PYTHON_FG black
 set -g BULLETTRAIN_PYTHON_PREFIX \ue235
-set -g BULLETTRAIN_PYTHON_SHOW false
+set -g BULLETTRAIN_PYTHON_SHOW true
 set -g BULLETTRAIN_PYTHON_SHOW_SYSTEM false
 set -g BULLETTRAIN_RUBY_PREFIX \ue739
 set -g BULLETTRAIN_RUBY_SHOW false
@@ -42,6 +42,7 @@ test -e /usr/local/opt/asdf/asdf.fish; and source /usr/local/opt/asdf/asdf.fish
 
 # iTerm2 shell integration
 test -e {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell_integration.fish
+
 
 # direnv
 type -q direnv; and eval (direnv hook fish)

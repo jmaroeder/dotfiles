@@ -1,0 +1,44 @@
+{
+  "[terraform]": {
+    "editor.formatOnSave": true
+  },
+  "diffEditor.renderSideBySide": false,
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "'Inconsolata Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 19,
+  "editor.minimap.showSlider": "always",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.smoothScrolling": true,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.openEditors.visible": 0,
+  "explorer.sortOrder": "mixed",
+  "files.associations": {
+    "**/tasks/*.yml": "ansible"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "markdown.preview.fontSize": 16,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false
+  },
+  "terraform.languageServer": {
+    "enabled": true
+  },
+  "window.nativeTabs": true,
+  "window.newWindowDimensions": "inherit",
+  "window.openFoldersInNewWindow": "on",
+  "window.restoreWindows": "all",
+  "window.titleBarStyle": "native",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tips.enabled": false
+}
