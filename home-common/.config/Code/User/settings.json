@@ -40,5 +40,7 @@
   "window.titleBarStyle": "native",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "extensions.ignoreRecommendations": false,
+  "window.zoomLevel": 0
 }
