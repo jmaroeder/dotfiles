@@ -17,6 +17,7 @@
   "explorer.confirmDelete": false,
   "explorer.openEditors.visible": 0,
   "explorer.sortOrder": "mixed",
+  "extensions.ignoreRecommendations": false,
   "files.associations": {
     "**/tasks/*.yml": "ansible"
   },
@@ -38,9 +39,8 @@
   "window.openFoldersInNewWindow": "on",
   "window.restoreWindows": "all",
   "window.titleBarStyle": "native",
+  "window.zoomLevel": 0,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.tips.enabled": false,
-  "extensions.ignoreRecommendations": false,
-  "window.zoomLevel": 0
+  "workbench.tips.enabled": false
 }
