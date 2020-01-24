@@ -42,5 +42,5 @@
   "window.zoomLevel": 0,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.tips.enabled": false
+"workbench.tips.enabled": false
 }
