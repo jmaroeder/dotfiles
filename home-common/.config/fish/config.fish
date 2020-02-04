@@ -1,3 +1,4 @@
+# theme options
 set -g BULLETTRAIN_GIT_ADDED \uf457
 set -g BULLETTRAIN_GIT_ADDED_FG black
 set -g BULLETTRAIN_GIT_CLEAN
@@ -25,25 +26,26 @@ set -g BULLETTRAIN_STATUS_EXIT_SHOW true
 set -g BULLETTRAIN_STATUS_ERROR \uf468
 set -g BULLETTRAIN_STATUS_JOB \uf423
 set -g BULLETTRAIN_DIR_EXTENDED 5
-set -g fish_greeting
-if status --is-interactive
-    abbr --add --global dc 'docker-compose'
-    abbr --add --global gco 'git checkout'
-end
 
+# be brief
+set -g fish_greeting
+
+# visual editor by default
 set -gx EDITOR "code -w"
 
-# asdf
-test -f /usr/local/opt/asdf/asdf.fish; and source /usr/local/opt/asdf/asdf.fish
+# utilities that only make sense in interactive mode
+if status --is-interactive
+    abbr --add dc docker-compose
 
-# Google Cloud SDK
-# test -f /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc; and source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
-# test -f /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.fish.inc; and source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.fish.inc
+    # iTerm2 shell integration
+    test -f {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell_integration.fish
 
-# iTerm2 shell integration
-test -f {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell_integration.fish
+    # asdf
+    test -f /usr/local/opt/asdf/asdf.fish; and source /usr/local/opt/asdf/asdf.fish
 
+    # pyenv
+    type -q pyenv; and pyenv init - | source
 
-# direnv
-type -q direnv; and eval (direnv hook fish)
-set -g fish_user_paths "/usr/local/opt/maven@3.5/bin" $fish_user_paths
+    # direnv
+    type -q direnv; and direnv hook fish | source
+end
