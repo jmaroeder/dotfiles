@@ -492,6 +492,10 @@
 	<integer>4</integer>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/src/github.com/jmaroeder/dotfiles/config</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{799, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -533,10 +537,12 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>560 456 799 448 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>-1270 1060 620 392 -1920 562 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-1920 562 1920 1057 -1920 562 1920 1057 </string>
+	<string>0 0 1920 1057 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_1CEA4D25-DE02-4438-A551-CFDE2687ABF3</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_1CEA4D25-DE02-4438-A551-CFDE2687ABF3_selection</key>
@@ -1235,9 +1241,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{-1920, 562}, {1920, 1080}}</string>
+		<string>{{0, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{-1257, 1369}</string>
+		<string>{828, 911}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>A3B26080-3861-4427-97EB-0B4D4F54FF95</string>
@@ -2007,7 +2013,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/james-roeder/.config/iTerm2</string>
+	<string>/Users/james-roeder/src/github.com/jmaroeder/dotfiles/config/iTerm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2019,7 +2025,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-03T14:06:45Z</date>
+	<date>2020-02-04T14:06:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>

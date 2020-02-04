@@ -46,3 +46,4 @@ test -f {$HOME}/.iterm2_shell_integration.fish; and source {$HOME}/.iterm2_shell
 
 # direnv
 type -q direnv; and eval (direnv hook fish)
+set -g fish_user_paths "/usr/local/opt/maven@3.5/bin" $fish_user_paths
