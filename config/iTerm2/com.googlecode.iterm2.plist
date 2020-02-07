@@ -20,6 +20,8 @@
 	<true/>
 	<key>Coprocess MRU</key>
 	<array>
+		<string>/usr/local/bin/pycharm /Users/james-roeder/src/github.com/ps-dev/flow-fundamentals/api/api/settings.py --args --line  /Users/james-roeder/src/github.com/ps-dev/flow-fundamentals/api/api/settings.py</string>
+		<string>/usr/local/bin/pycharm /Users/james-roeder/src/github.com/ps-dev/flow-fundamentals/api/api/urls.py --args --line  /Users/james-roeder/src/github.com/ps-dev/flow-fundamentals/api/api/urls.py</string>
 		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/singleton.py --args --line 34 /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/singleton.py</string>
 		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/tests/test_utils.py --args --line 9 /Users/jroeder/src/github.com/jmaroeder/python-singletons/tests/test_utils.py</string>
 		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/tests/test_utils.py --args --line 6 /Users/jroeder/src/github.com/jmaroeder/python-singletons/tests/test_utils.py</string>
@@ -38,8 +40,6 @@
 		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/singleton.py --args --line 72 /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/singleton.py</string>
 		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/singleton.py --args --line 8 /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/singleton.py</string>
 		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/shared_module.py --args --line 37 /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/shared_module.py</string>
-		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/tests/test_singleton.py --args --line 53 /Users/jroeder/src/github.com/jmaroeder/python-singletons/tests/test_singleton.py</string>
-		<string>/usr/local/bin/pycharm /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/__init__.py --args --line 0 /Users/jroeder/src/github.com/jmaroeder/python-singletons/src/singletons/__init__.py</string>
 	</array>
 	<key>Custom Color Presets</key>
 	<dict>
@@ -542,7 +542,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>-1270 1060 620 392 -1920 562 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1920 1057 0 0 1920 1057 </string>
+	<string>0 0 1920 1080 0 0 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_1CEA4D25-DE02-4438-A551-CFDE2687ABF3</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_1CEA4D25-DE02-4438-A551-CFDE2687ABF3_selection</key>
@@ -1169,7 +1169,7 @@
 			<key>Semantic History</key>
 			<dict>
 				<key>action</key>
-				<string>coprocess</string>
+				<string>best editor</string>
 				<key>editor</key>
 				<string>com.github.atom</string>
 				<key>text</key>
@@ -1243,12 +1243,12 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{828, 911}</string>
+		<string>{530, 940}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>A3B26080-3861-4427-97EB-0B4D4F54FF95</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>7</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2025,7 +2025,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-04T14:06:45Z</date>
+	<date>2020-02-07T14:17:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
