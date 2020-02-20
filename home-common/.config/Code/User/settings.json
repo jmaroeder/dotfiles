@@ -43,23 +43,24 @@
   "window.zoomLevel": 0,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "newUntitledFile",
-"workbench.tips.enabled": false,
-"files.exclude": {
-  "**/__pycache__": true,
-  "**/.idea": true,
-  "**/.mypy_cache": true,
-  "**/.vscode": true
-},
-"gitlens.hovers.annotations.over": "annotation",
-"gitlens.codeLens.scopes": [
-  "document"
-],
-"explorer.confirmDragAndDrop": false,
-"search.exclude": {
-  "**/.direnv": true
-},
-"terminal.external.osxExec": "iTerm.app",
-"files.watcherExclude": {
-  "**/.direnv/**": true
-}
+  "workbench.tips.enabled": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.idea": true,
+    "**/.mypy_cache": true,
+    "**/.vscode": true
+  },
+  "gitlens.hovers.annotations.over": "annotation",
+  "gitlens.codeLens.scopes": [
+    "document"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "search.exclude": {
+    "**/.direnv": true
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "files.watcherExclude": {
+    "**/.direnv/**": true
+  },
+  "python.formatting.provider": "black"
 }

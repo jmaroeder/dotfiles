@@ -46,6 +46,9 @@ if status --is-interactive
     # pyenv
     type -q pyenv; and pyenv init - | source
 
+    # fnm
+    type -q fnm; and fnm env --multi | source
+
     # direnv
     type -q direnv; and direnv hook fish | source
 end

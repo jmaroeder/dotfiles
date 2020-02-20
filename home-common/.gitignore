@@ -101,6 +101,8 @@ fabric.properties
 
 .envrc
 .tool-versions
+.python-version
 .idea/
+.vscode/
 
 .venv/
