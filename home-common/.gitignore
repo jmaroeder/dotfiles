@@ -100,6 +100,7 @@ fabric.properties
 !.vscode/extensions.json
 
 .envrc
+.direnv/
 .tool-versions
 .python-version
 .idea/

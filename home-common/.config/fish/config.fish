@@ -52,3 +52,12 @@ if status --is-interactive
     # direnv
     type -q direnv; and direnv hook fish | source
 end
+
+# cleanup z every two weeks
+if type -q z
+    if test -z "$Z_LAST_CLEANUP"
+        set -U Z_LAST_CLEANUP (date +%s)
+    end
+    # 604800 seconds = 2 weeks
+    test (math (date +%s)" - $Z_LAST_CLEANUP") -gt 604800; and z --clean; and set -U Z_LAST_CLEANUP (date +%s)
+end

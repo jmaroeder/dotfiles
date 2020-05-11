@@ -46,9 +46,12 @@
   "workbench.tips.enabled": false,
   "files.exclude": {
     "**/__pycache__": true,
+    "**/.direnv": true,
     "**/.idea": true,
     "**/.mypy_cache": true,
-    "**/.vscode": true
+    "**/.vscode": true,
+    "**/*.egg-info": true,
+    "**/dist": true
   },
   "gitlens.hovers.annotations.over": "annotation",
   "gitlens.codeLens.scopes": [
@@ -62,5 +65,11 @@
   "files.watcherExclude": {
     "**/.direnv/**": true
   },
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
