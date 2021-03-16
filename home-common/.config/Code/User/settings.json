@@ -1,13 +1,8 @@
 {
-  "[terraform]": {
-    "editor.formatOnSave": true
-  },
-  "diffEditor.renderSideBySide": false,
   "editor.dragAndDrop": false,
   "editor.fontFamily": "'Inconsolata Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.lineHeight": 19,
-  "editor.minimap.showSlider": "always",
   "editor.rulers": [
     80,
     120
@@ -15,35 +10,14 @@
   "editor.smoothScrolling": true,
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 0,
   "explorer.sortOrder": "mixed",
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
   "files.associations": {
     "**/tasks/*.yml": "ansible",
     ".envrc": "shellscript"
   },
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "markdown.preview.fontSize": 16,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "terraform.indexing": {
-    "enabled": false,
-    "liveIndexing": false
-  },
-  "terraform.languageServer": {
-    "enabled": true
-  },
-  "window.nativeTabs": true,
-  "window.newWindowDimensions": "inherit",
-  "window.openFoldersInNewWindow": "on",
-  "window.restoreWindows": "all",
-  "window.titleBarStyle": "native",
-  "window.zoomLevel": 0,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.tips.enabled": false,
   "files.exclude": {
     "**/__pycache__": true,
     "**/.direnv": true,
@@ -53,23 +27,58 @@
     "**/*.egg-info": true,
     "**/dist": true
   },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.watcherExclude": {
+    "**/.direnv": true
+  },
   "gitlens.hovers.annotations.over": "annotation",
   "gitlens.codeLens.scopes": [
     "document"
   ],
-  "explorer.confirmDragAndDrop": false,
-  "search.exclude": {
-    "**/.direnv": true
-  },
-  "terminal.external.osxExec": "iTerm.app",
-  "files.watcherExclude": {
-    "**/.direnv/**": true
-  },
+  "markdown.preview.fontSize": 16,
   "python.formatting.provider": "black",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "python.showStartPage": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "window.nativeTabs": true,
+  "window.newWindowDimensions": "inherit",
+  "window.openFoldersInNewWindow": "on",
+  "window.restoreWindows": "all",
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": 0,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tips.enabled": false,
+  "yaml.format.printWidth": 120,
+  "editor.renderWhitespace": "none",
+  "files.trimTrailingWhitespace": true,
+  "editor.minimap.enabled": false,
+  "vs-kubernetes": {
+    "disable-linters": ["resource-limits"],
+    "vs-kubernetes.namespace": "",
+    "vs-kubernetes.kubectl-path": "",
+    "vs-kubernetes.helm-path": "",
+    "vs-kubernetes.draft-path": "",
+    "vs-kubernetes.minikube-path": "",
+    "vs-kubernetes.kubectlVersioning": "user-provided",
+    "vs-kubernetes.outputFormat": "yaml",
+    "vs-kubernetes.kubeconfig": "",
+    "vs-kubernetes.knownKubeconfigs": [],
+    "vs-kubernetes.autoCleanupOnDebugTerminate": false,
+    "vs-kubernetes.nodejs-autodetect-remote-root": true,
+    "vs-kubernetes.nodejs-remote-root": "",
+    "vs-kubernetes.nodejs-debug-port": 9229,
+    "checkForMinikubeUpgrade": true,
+    "logsDisplay": "webview",
+    "imageBuildTool": "Docker"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "go.useLanguageServer": true,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
 }
